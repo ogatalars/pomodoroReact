@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+Pomodoro Web Application
+This is a simple Pomodoro web application built using TypeScript and React. The application allows users to track and manage their work sessions using the Pomodoro technique.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Components
+Timer
+The Timer component is responsible for displaying the timer and providing controls to start, stop, and reset the timer.
 
-## Available Scripts
+Props
+None
+State
+time: Represents the remaining time in seconds.
+isRunning: Indicates whether the timer is currently running or stopped.
+Methods
+formatTime(time: number): Formats the time in MM:SS format.
+startTimer(): Starts the timer.
+stopTimer(): Stops the timer.
+resetTimer(): Resets the timer to its initial value.
 
-In the project directory, you can run:
+Usage
+To use the Pomodoro web application, follow these steps:
 
-### `npm start`
+Install the necessary dependencies by running npm install in the project root directory.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Start the development server by running npm start.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open your browser and navigate to http://localhost:3000.
 
-### `npm test`
+You will see the Pomodoro Timer application with the timer displayed and buttons to start, stop, and reset the timer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Customization
+Feel free to customize the application based on your requirements. You can modify the timer duration, add visual indicators, customize the styles, or incorporate sound notifications when the timer reaches zero.
 
-### `npm run build`
+Dependencies
+The Pomodoro web application has the following dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React: A JavaScript library for building user interfaces.
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+Create React App: A tool for creating React applications with zero configuration.
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
